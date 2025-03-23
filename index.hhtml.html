@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="overlay"></div>
+    <div class="form-container">
+      <div class="header">
+        <h1>Welcome Back!</h1>
+        <p>Please sign in to your account</p>
+      </div>
+
+      <form class="active">
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <div class="input-with-icon">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <div class="input-with-icon">
+            <input type="password" id="password" name="password" placeholder="Enter your password" required />
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <a href="#" class="forgot-link">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="submit-btn">Sign In</button>
+
+        <div class="social-divider"><span>or continue with</span></div>
+
+        <div class="social-buttons">
+          <button type="button" class="social-btn google">
+            <span>Google</span>
+          </button>
+          <button type="button" class="social-btn facebook">
+            <span>Facebook</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
